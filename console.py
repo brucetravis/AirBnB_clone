@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines my HBnB console."""
+"""Defines the HBnB console."""
 import cmd
 import re
 from shlex import split
@@ -208,3 +208,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
+
